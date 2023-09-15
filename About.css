@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .hero{
+    height:25vh;
+    width: 100%;
+    background-color: #141313;
+
+
+    
+    }
+    nav{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding: 45px 8% 0;
+    }
+    .logo{
+        color: white;
+        font-size: 50px;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+    nav ul li {
+        list-style-type: none;
+        display:inline-block;
+        padding: 10px 25px;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav ul li a:hover{
+        color: #f9004d;
+    }
+    .btn{
+        color: white;
+        text-decoration: none;
+        background-color: #f9004d;
+        font-weight: bold;
+        padding: 15px 30px;
+        border-radius: 25px;
+    }
+    .btn:hover{
+        cursor: pointer;
+        background-color: #191919;
+        border: 2px solid #f9004d;
+    
+    }
+
+    .about{
+        width: 100%;
+        height: 75vh;
+        background-color: #141313;
+        margin: 0px auto;
+        display: flex;
+        gap: 5%;
+        justify-content: center;
+        align-items: center;
+    }
+    .about img{
+        height: 500px;
+        width: 430px;
+        border-radius: 20px;
+        border-bottom:5px solid #f9004d;
+        border-top:5px solid #f9004d;
+        
+        
+        
+    }
+    .about-text{
+        width: 550px;
+    }
+    .about-text h2 {
+        color: white;
+        font-size: 75px;
+        margin-bottom: 20px;
+    }
+    .about-text h5 {
+        color: white;
+        font-size: 22px;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+
+    }
+    #about{
+        border-bottom: 2px solid #f9004d;
+    }
+    span{
+        color: #f9004d;
+    }
+    .about-text p{
+        color: #fcfc;
+        letter-spacing: 1px;
+        line-height: 30px;
+        font-size: 18px;
+        margin-bottom: 45px;
+    }
+    button{
+        background-color:#f9004d;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        border: 2px;
+        font-weight: bold;
+        padding: 15px 30px;
+        border-radius: 30px;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: #191919;
+        border: 2px solid #f9004d;
+    
+    }
